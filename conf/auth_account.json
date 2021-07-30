@@ -1,0 +1,7 @@
+{
+  "auth": {
+    "grant_type": "client_credentials",
+    "client_id": "百度云申请的ak",
+    "client_secret": "百度云申请的sk"
+  }
+}
