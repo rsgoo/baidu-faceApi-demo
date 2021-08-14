@@ -1,6 +1,6 @@
 package main
 
-import "github.com/my/repo/baidu-faceApi-demo/utils"
+import "baidu-faceApi-demo/utils"
 
 func main() {
 	utils.GetAccessToken()
