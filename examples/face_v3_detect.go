@@ -1,8 +1,11 @@
 package main
 
-import "baidu-faceApi-demo/utils"
+import (
+	"baidu-faceApi-demo/utils"
+	"fmt"
+)
 
 func main() {
-	utils.GetAccessToken()
-
+	access_token := utils.GenAccessToken()
+	fmt.Println(access_token)
 }
