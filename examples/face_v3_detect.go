@@ -54,7 +54,7 @@ func main() {
 		panic(err)
 	}
 
-	//使用浏览器访问 http://localhost:8088/v3_face_detect
+	//使用浏览器访问 http://localhost:8088/v3_face_detect 可以得到接口响应结果
 	http.HandleFunc("/v3_face_detect", func(writer http.ResponseWriter, request *http.Request) {
 		_, _ = writer.Write(rspBytes)
 	})
